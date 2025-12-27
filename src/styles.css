@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400;500;600;700&display=swap');
+
+:root {
+  --bg-black: #0a0a0a;
+  --text-white: #ffffff;
+  --text-muted: #a1a1aa;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--bg-black);
+  color: var(--text-white);
+  font-family: 'Geist Mono', 'JetBrains Mono', monospace;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-black);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+}
+
+/* Selection */
+::selection {
+  background: #8b5cf6;
+  color: var(--bg-black);
+}
+
+/* Links */
+a {
+  transition: color 0.2s;
+}
