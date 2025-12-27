@@ -3,7 +3,6 @@
  * Shows the full landing page component
  */
 
-import React from 'react';
 import { JustFuckingUseQBraid } from './Component';
 
 export default function App() {

@@ -1,4 +1,3 @@
-import React from 'react';
 import './styles.css';
 
 const LOGO_URL = 'https://cdn.prod.website-files.com/67766e0e4e4f74f02f5ddaa0/6778da6f69cc7a0553180b7c_Navbar%20Brand%20white.svg';
@@ -129,14 +128,14 @@ export function JustFuckingUseQBraid() {
             <a href="https://justfuckinguse.com" target="_blank" rel="noopener noreferrer" className="underline hover:text-white">
               justfuckinguse.com
             </a>{' '}
-            collection. Not officially affiliated with qBraid, but they should probably hire whoever made this.
+            collection. 
           </p>
           <p className="text-base mb-8 text-gray-500">
             Made with frustration, caffeine, and a genuine appreciation for tools that just fucking work.
           </p>
 
           <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
-            <img src={LOGO_URL} alt="qBraid" className="h-6" />
+            <img src={LOGO_URL} alt="qBraid" className="h-6" loading="lazy" />
             <div className="flex gap-6 text-base text-gray-500">
               <a href="https://docs.qbraid.com" target="_blank" rel="noopener noreferrer" className="hover:text-white">Docs</a>
               <span className="text-zinc-800">|</span>
